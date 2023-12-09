@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100px;
+}
+.container img{
+    height: 100px;
+}
+header{
+    height: 100vh;
+    width: 100%;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("imgs/header.jpg");
+   background-size: cover;
+    position: relative;
+}
+#text{
+    height: 500px;
+    width: 50%;
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    text-align: center;
+}
+#text img{
+    height: 200px;
+    width: 100%;
+   
+}
+.nav-item{
+    font-family: 'Merriweather', serif;
+}
+#text h1{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+#a h5{
+    color: grey;
+}
+#a b{
+    color: grey;
+}
+#d img{
+    height: 300px;
+    width: 250px;
+}
+#a h4{
+    color: grey; 
+}
+
+#l{
+    height: 800px;
+    margin-top: 42%;
+    
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("imgs/section.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#l h5{
+    color: grey;
+}
+#aq{
+    background: #bc8c4c;
+}
+#asdf{
+/* border: 1px solid black; */
+height: 600px;
+}
+#asd{
+    /* border: 1px solid black; */
+    height: 550px;
+}
+#asd img{
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#asd p{
+    color: grey;
+}
+#asd i{
+    color: #bc8c4c;
+    padding: 5px;
+}
+#asw{
+    /* border: 1px solid black; */
+    height: 350px;
+}
+#asw img{
+    border-radius: 50%;
+    height: 60px;
+}
+#asw p{
+    color: grey;
+}
+#qwa img{
+    height: 100%;
+}
+#qwa input{
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+}
+#qwa{
+    /* border: 1px solid black; */
+    height: 600px;
+}
+#qwa a{
+    background: #bc8c4c;
+}
+#qqq{
+    height: 30vh;
+}
+#qqq i{
+    padding: 8px;
+    font-size: 20px;
+}
+
+
+
+@media (min-width:0px) and (max-width:576px)
+ {
+   .nav-item .nav-link a{
+        background: white;
+        color: white !important;
+        border: 1px solid white;
+    }
+}
