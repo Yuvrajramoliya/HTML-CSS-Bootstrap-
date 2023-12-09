@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 95vh;
+    width: 100%;
+    background-image: url(imgs/header.jpg);
+    background-size: cover;
+    position: relative;
+}
+#q{
+    font-family: 'Pangolin', cursive;
+    font-size: 30px;
+    color: white;
+}
+.nav-item a{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    color: white !important;
+}
+#text{
+    height: 350px;
+    width: 500px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+#text h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    color: #17a2b8;
+}
+#text h3{
+    letter-spacing: 3px;
+}
+#a img{
+    height: 400px;
+}
+#d h5{
+    color: grey;
+    font-size: 15px;
+    line-height: 0;
+}
+#d h2{
+    font-size: 50px;
+    line-height: 50px;
+}
+#d img{
+    height: 80px;
+    width: 50%;
+}
+#d h6{
+    color: #17a2b8;
+    font-size: 18px;
+    font-family: 'Secular One', sans-serif;
+}
+#f h6{
+    color: grey;
+}
+#f img{
+    height: 400px;
+    width: 100%;
+}
+#g{
+    text-align: center;
+}
+#g h6{
+    color: grey;
+}
+#g img{
+    height: 100px;
+    width: 100%;
+}
+#h img{
+    border-radius: 50%;
+    height: 100px;
+}
+#h h6{
+    color: grey;
+}
+#h b{
+    font-size: 18px;
+}
+#j h6{
+    color: grey;
+}
+#j img{
+    height: 350px;
+    width: 90%;
+}
+#j i{
+    font-size: 16px;
+}
+#j h4{
+    color: grey;
+    font-size: 15px
+}
+#l i{
+    padding: 7px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    transition: 1s;
+}
+#l i:hover{
+    background: blue;
+    color: white;
+}
