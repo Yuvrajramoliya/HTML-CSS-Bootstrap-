@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    height: 120px;
+}
+.container-fluid img{
+    height: 120px;
+    width: 50%;
+}
+#a h1{
+    border-radius: 20px 0px 0px 20px;
+}
+#b img{
+    height: 700px;
+    width: 100%;
+}
+#c{
+    height: 900px;
+}
+#d{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+#d img{
+    height: 120px;
+    width: 30%;
+    background: white;
+    border-radius: 15px;
+}
+#d p{
+    font-size: 12px;
+}
+#e a{
+    font-size: 20px;
+}
+#f input{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 5px;
+}
+#f a{
+    border-radius: 15px;
+    font-size: 18px;
+}
+#s{
+    height: 35vh;
+}
+#n i{
+    padding: 5px;
+    font-size: 20px;
+}
+
+@media (min-width:576px) and (max-width:768px)
+ {
+    .nav-item{
+        z-index: 1;
+    }
+    .carousel{
+        margin-top: 20%;
+    }
+    #a img{
+            height: 60vh;
+            width: 100%;
+            margin-top: 150px;
+    }
+    #c{
+        height: auto;
+        width: auto;
+    }
+    #e p{
+        font-size: 10px;
+    }
+    #f input{
+        width: 200px;
+    }
+    #s{
+        text-align: center;
+    }
+    #p1 img{
+        height: 80vh;
+        width: 100%;
+    }
+}
+
+@media (min-width:360px) and (max-width:576px)
+ {
+    .nav-item{
+        z-index: 1;
+    }
+    .carousel{
+        margin-top: 20% ;
+    }
+    #a{
+        height: auto;
+        width: auto;
+    }
+    #b{
+        height: auto;
+        width: auto;
+    }
+    #s{
+        text-align: center;
+        height: 116vh;
+        border: 1px solid black     ;
+    }
+    #c{
+        height: auto;
+        width: auto;
+    }
+    #e{
+        height: auto;
+        width: auto;
+    }
+    #f input{
+        width: 170px;
+    }
+
+}
